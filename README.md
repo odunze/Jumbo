@@ -2,6 +2,14 @@
 
 My submission for the Jumbo Privacy code challenge.
 
+Instructions:
+- Run in Simulator.
+- Click "Add New" to start an operation.
+- Keep clicking to add more operations.
+
+Design Patterns / Architecture:
+- MVVM
+
 Strategy: 
 
 - Created a HTML file containing the Javascript link.
