@@ -18,3 +18,6 @@ Strategy:
 - Captured the callback message and mapped it to the operation struct.
 - Displayed the operations using a table view.
 - Updated the operation status using a progress view.
+
+Screenshot:
+![Screenshot]()
