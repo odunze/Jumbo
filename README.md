@@ -20,4 +20,6 @@ Strategy:
 - Updated the operation status using a progress view.
 
 Screenshot:
-![Screenshot]()
+![Empty](https://github.com/odunze/Jumbo/blob/master/Jumbo-empty.png)
+![First Operation](https://github.com/odunze/Jumbo/blob/master/Jumbo-firstOp.png)
+![Multiple Operations](https://github.com/odunze/Jumbo/blob/master/Jumbo-multiOp.png)
