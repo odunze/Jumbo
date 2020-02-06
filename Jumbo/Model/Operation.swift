@@ -13,6 +13,16 @@ struct Operation: Codable {
     var message: String
     var progress: Int?
     var state: String?
+    
+    var currentProgress: Float? {
+        if let prgrs = progress {
+            let prgrsFloat = Float(prgrs)
+            let currentProgress = prgrsFloat / 100
+        return currentProgress
+        } else {
+            return nil
+        }
+    }
 }
 
 enum Status {

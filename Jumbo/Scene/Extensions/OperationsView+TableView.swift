@@ -28,11 +28,9 @@ extension OperationsView: UITableViewDataSource {
         default:
             cell.statusLabel.text = "Currently in Progress"
         }
-        
-        let progress: Float = Float(vm.operations[indexPath.row].progress ?? 0)
-        let currentProgress = progress / 100
-        cell.progressBar.setProgress(currentProgress, animated: true)
-        
+            
+        cell.progressBar.setProgress(vm.operations[indexPath.row].currentProgress ?? 0, animated: true)
+            
         }
         
         return cell
